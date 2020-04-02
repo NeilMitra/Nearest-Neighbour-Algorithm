@@ -59,11 +59,3 @@ ya2 = (tc[1])
 a = distanceformulafs()
 b = distanceformulaft()
 
-print(a)
-print(b)
-
-if a < b:
-    print("Go from " + str(sp) + " to " + str(sc) + " and finally " + str(tc))
-
-if a > b:
-    print("Go from " + str(sp) + " to " + str(tc) + " and finally " + str(sc))
