@@ -4,10 +4,10 @@ import math as m
 #funtions
 
 def distanceformulafs():
-    return print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
+    return print(int(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2))))
 
 def distanceformulaft():
-    return print(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2)))
+    return print(int(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2))))
 
 
 
@@ -64,7 +64,6 @@ b = distanceformulaft
 
 print(a)
 print(b)
-
 
 
 if a < b:
