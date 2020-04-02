@@ -6,6 +6,9 @@ import math as m
 def distanceformula():
     print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
 
+def distanceformula2():
+    print(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2)))
+
 
 
 print("Enter your two starting coordinates:")
@@ -54,5 +57,6 @@ xa2 = (tc[0])
 ya2 = (tc[1])
 
 distanceformula()
+distanceformula2()
 
 print(distanceformula)
