@@ -3,11 +3,11 @@ import math as m
 
 #funtions
 
-def distanceformula():
-    print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
+def distanceformulafs():
+    return m.sqrt( ((y2-y1)**2) + ((x2-x1)**2))
 
-def distanceformula2():
-    print(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2)))
+def distanceformulaft():
+    return m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2))
 
 
 
@@ -56,10 +56,15 @@ print(tc)
 xa2 = (tc[0])
 ya2 = (tc[1])
 
-distanceformula()
-distanceformula2()
+distanceformulafs()
+distanceformulaft()
 
-print(distanceformula)
-print(distanceformula2)
+a = distanceformulafs
+b = distanceformulaft
 
+print(a)
+print(b)
+
+if a < b:
+    print("Go from " + str(sp) + " to " + str(sc) + " and finally " + str(tc))
 
