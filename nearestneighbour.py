@@ -1,5 +1,12 @@
 import math as m 
 
+
+#funtions
+
+def distanceformula():
+    print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
+    
+
 print("Enter your two starting coordinates:")
 
 # creating an empty list 
@@ -31,10 +38,6 @@ y1 = (sp[1])
 
 x2 = (sc[0])
 y2 = (sc[1])
-
-
-def distanceformula():
-    print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
 
 
 distanceformula()
