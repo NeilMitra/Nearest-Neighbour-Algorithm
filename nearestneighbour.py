@@ -23,6 +23,11 @@ for i in range(0, 2):
 
 print(sp) 
 
+
+x1 = (sp[0])
+y1 = (sp[1])
+
+
 print("What is your second coordinate?:")
 
 sc = []
@@ -32,10 +37,6 @@ for i in range(0, 2):
   
     sc.append(x)       
 print(sc)
-
-
-x1 = (sp[0])
-y1 = (sp[1])
 
 x2 = (sc[0])
 y2 = (sc[1])
@@ -53,7 +54,18 @@ print(tc)
 xa2 = (tc[0])
 ya2 = (tc[1])
 
+print("What is your fourth coordinate?:")
 
+fc = []
+
+for i in range(0, 2): 
+    x = int(input()) 
+  
+    fc.append(x)       
+print(fc)
+
+xb2 = (fc[0])
+yb2 = (fc[1])
 
 a = distanceformulafs()
 b = distanceformulaft()
