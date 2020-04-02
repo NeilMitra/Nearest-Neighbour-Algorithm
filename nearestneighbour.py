@@ -4,10 +4,10 @@ import math as m
 #funtions
 
 def distanceformulafs():
-    return print(int(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2))))
+    return float(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
 
 def distanceformulaft():
-    return print(int(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2))))
+    return float(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2)))
 
 
 
@@ -56,11 +56,8 @@ print(tc)
 xa2 = (tc[0])
 ya2 = (tc[1])
 
-distanceformulafs()
-distanceformulaft()
-
-a = distanceformulafs
-b = distanceformulaft
+a = distanceformulafs()
+b = distanceformulaft()
 
 print(a)
 print(b)
