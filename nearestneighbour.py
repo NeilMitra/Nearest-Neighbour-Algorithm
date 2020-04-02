@@ -65,8 +65,7 @@ b = distanceformulaft
 print(a)
 print(b)
 
-int(a)
-int(b)
+
 
 if a < b:
     print("Go from " + str(sp) + " to " + str(sc) + " and finally " + str(tc))
