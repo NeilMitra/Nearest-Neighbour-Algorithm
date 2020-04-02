@@ -4,10 +4,10 @@ import math as m
 #funtions
 
 def distanceformulafs():
-    return m.sqrt( ((y2-y1)**2) + ((x2-x1)**2))
+    return print(m.sqrt( ((y2-y1)**2) + ((x2-x1)**2)))
 
 def distanceformulaft():
-    return m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2))
+    return print(m.sqrt( ((ya2-y1)**2) + ((xa2-x1)**2)))
 
 
 
@@ -64,6 +64,9 @@ b = distanceformulaft
 
 print(a)
 print(b)
+
+int(a)
+int(b)
 
 if a < b:
     print("Go from " + str(sp) + " to " + str(sc) + " and finally " + str(tc))
