@@ -60,3 +60,6 @@ distanceformula()
 distanceformula2()
 
 print(distanceformula)
+print(distanceformula2)
+
+
