@@ -13,11 +13,8 @@ def distanceformulaft():
 
 print("Enter your two starting coordinates:")
 
-# creating an empty list 
 sp = []
 
-
-#converting starting point into list
 
 for i in range(0, 2): 
     x = int(input()) 
@@ -55,6 +52,8 @@ print(tc)
 
 xa2 = (tc[0])
 ya2 = (tc[1])
+
+
 
 a = distanceformulafs()
 b = distanceformulaft()
