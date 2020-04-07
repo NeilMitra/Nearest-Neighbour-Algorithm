@@ -70,5 +70,8 @@ yb2 = (fc[1])
 a = distanceformulafs()
 b = distanceformulaft()
 
-###porject s
+"""
+porject is on pause at the moment, please check out other code that I have written on
+my GitHub: https://www.github.com/NeilMitra
+"""
 
